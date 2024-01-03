@@ -5,7 +5,7 @@ pipeline {
         maven 'Maven3'
     }
 	environment {
-		    APP_NAME = "dockerCIProject-pipeline"
+		    APP_NAME = "dockerciproject-pipeline"
 			RELEASE = "1.0.0"
 			DOCKER_USER = "khaja359"
 			DOCKER_PASS = "jenkins-dockerhub-token"
